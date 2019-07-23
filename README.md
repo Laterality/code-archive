@@ -8,4 +8,11 @@
 
 #### jpa
 
-jpa-skeletal: JPA 프로젝트 템플릿
+[jpa-skeletal][jpa-skeletal]: JPA 프로젝트 템플릿
+
+#### spring
+
+[test-custom-validation][test-custom-validation]: Custom Bean Validation 테스트 예시
+
+[jpa-skeletal]: https://github.com/Laterality/code-archive/tree/master/java/jpa/jpa-skeletal
+[test-custom-validation]: https://github.com/Laterality/code-archive/tree/master/java/spring/custom-validation-test
