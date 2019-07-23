@@ -14,6 +14,13 @@ public class UserRegisterRequestDto {
     @Email
     private String email;
 
+    public static UserRegisterRequestDto of(String username, String email) {
+        UserRegisterRequestDto newDto = new UserRegisterRequestDto();
+        newDto.email = email;
+        newDto.username = username;
+        return newDto;
+    }
+
     public String getUsername() {
         return username;
     }
