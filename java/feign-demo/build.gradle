@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.slf4j:slf4j-simple:1.7.30")
+    implementation("io.github.openfeign:feign-gson:10.7.2")
+    implementation("com.google.code.gson:gson:2.8.6")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.5.2")
+}
