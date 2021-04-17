@@ -19,3 +19,5 @@
 **/*.iws
 **/*.iml
 **/*.ipr
+
+.nocommit
